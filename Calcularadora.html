@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Css/style.css" />
+    <title>Calculadora</title>
+  </head>
+  <body>
+      <header class="cabecalho">
+      <h1 class="titulo-principal">Super Calculadora</h1>
+      <div class="inputs">
+      <label for="primeiro-numero">Primeiro número (A): </label>
+      <input id="primeiro-numero" type="number" />
+      <label for="segundo-numero">Segundo número (B): </label>
+      <input id="segundo-numero" type="number" />
+      <button id="button-calcular">Calcular</button>
+      </div>
+     </header>
+     <main class="tabela">
+      <table>
+        <tr>
+          <td>Soma </br> <p id="result-soma"></p></td>
+          <td>Subtração A - B </br> <p id="result-subtracao1"></p></td>
+          <td>Subtração B - A </br> <p id="result-subtracao2"></p></td>
+        </tr>
+        <tr>
+          <td>Multiplicação </br> <p id="result-multiplicacao"></p></td>
+          <td>Divisão A / B </br> <p id="result-divisao1"></p></td>
+          <td>Divisão B / A </br> <p id="result-divisao2"></p></td>
+        </tr>
+        <tr>
+          <td>Potência de A na base B </br> <p id="result-potencia1"></p></td>
+          <td>Potência de B na base A </br> <p id="result-potencia2"></p></td>
+          <td>Raiz quadrada de A </br> <p id="result-raiz1"></p></td>
+        </tr>
+        <tr>
+          <td>Raiz quadrada de B </br> <p id="result-raiz2"></p></td>
+          <td>Fatorial de A </br> <p id="result-fatorial1"></p></td>
+          <td>Fatorial de B </br> <p id="result-fatorial2"></p></td>
+        </tr>
+        <tr>
+          <td>Porcetagem de A em relação a B </br> <p id="result-porcentagem1"></p></td>
+          <td>Porcentagem de B em relação a A </br> <p id="result-porcentagem2"></p></td>
+          <td>Média </br> <p id="result-media"></p></td>
+        </tr>
+      </table>
+    </main>
+    <script defer src="./Javascript/Index.js"></script>
+  </body>
+</html>

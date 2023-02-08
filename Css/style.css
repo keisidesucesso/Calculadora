@@ -1,0 +1,53 @@
+body {
+  width: 800px;
+}
+
+#calculadora {
+  width: 800px;
+  background-color: rgba(5, 5, 167, 0);
+}
+h1 {
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+}
+input {
+  width: 130px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+label {
+  color: white;
+}
+.inputs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+.cabecalho {
+  background-color: #000000;
+}
+.tabela {
+  background-color: #4f4f4f;
+  display: flex;
+  justify-content: space-around;
+}
+table {
+  margin: 20px 0 20px;
+  width: 759px;
+}
+
+td {
+  border: 1px solid #000000;
+  padding: 5px 15px;
+  width: 33%;
+  font-size: 14px;
+  color: #ffffff;
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  color: #ffffff;
+}
